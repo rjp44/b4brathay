@@ -259,7 +259,7 @@ a:focus {
 }
 
 .global-header {
-  padding: var(--spacing-12);
+  padding: var(--spacing-6);
   color: var(--color-main-heading);
   background-color: var(--color-main-heading-bg);
 }
