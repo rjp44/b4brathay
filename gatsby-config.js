@@ -1,15 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `b4brathay`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `a`,
+      summary: `B4RN in Skelwith, Colwith, Clappersgate and Little Langdale.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+    description: `B4RN in Skelwith, Colwith, Clappersgate and Little Langdale.`,
+    siteUrl: `https://b4brathay.gatsbyjs.io/`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -113,15 +110,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `b4brathay`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
+        main_heading_color: `#333`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon-32.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,
